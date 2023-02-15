@@ -56,7 +56,7 @@ spec:
   source:
     path: components/enterprise-contract
     repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    targetRevision: pre-mvp
 
   destination:
     namespace: enterprise-contract-service

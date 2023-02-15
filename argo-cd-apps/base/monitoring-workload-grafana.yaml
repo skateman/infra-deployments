@@ -8,7 +8,7 @@ spec:
   source:
     path: components/monitoring/grafana/base
     repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    targetRevision: pre-mvp
 
   destination:
     namespace: appstudio-workload-monitoring

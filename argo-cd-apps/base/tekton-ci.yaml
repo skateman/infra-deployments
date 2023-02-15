@@ -9,7 +9,7 @@ spec:
   source:
     path: components/tekton-ci
     repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    targetRevision: pre-mvp
   destination:
     namespace: tekton-ci
     server: https://kubernetes.default.svc
